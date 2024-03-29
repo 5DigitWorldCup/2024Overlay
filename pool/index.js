@@ -228,7 +228,7 @@ function setNextPicker(colour) {
 // Toggle Autopick
 const toggleAutoPickButton = document.getElementById("toggleAutoPickButton")
 const toggleAutoPickText = document.getElementById("toggleAutoPickText")
-let hasAutopicked = true
+let hasAutopicked = false
 let currentIpcState
 function toggleAutoPick() {
     if (toggleAutoPickText.innerText == "ON") {
